@@ -1,0 +1,50 @@
+{
+  "name": "comfortable",
+  "version": "0.0.1",
+  "description": "A JavaScript utility library delivering comfort, performance, modularity & extras.",
+  "license": "MIT",
+  "homepage": "https://github.com/Ruben-Arushanyan/comfortable",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ruben-Arushanyan/comfortable"
+  },
+  "bugs": {
+    "url": "https://github.com/Ruben-Arushanyan/comfortable/issues",
+    "email": "ruben.arushanyan24@gmail.com"
+  },
+  "keywords": [
+    "javascript",
+    "comfort",
+    "comfortable",
+    "util",
+    "utility"
+  ],
+  "author": {
+    "name": "Ruben Arushanyan",
+    "email": "ruben.arushanyan24@gmail.com",
+    "url": "https://www.linkedin.com/in/ruben-arushanyan-42bba9235/"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/Ruben-Arushanyan"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "test": "npm run to-pack --if-present; node scripts/test.js",
+    "to-pack": "npm run build --if-present; node scripts/to-pack.js",
+    "to-npm-publish": "npm run to-pack --if-present; node scripts/to-npm-publish.js"
+  },
+  "packableFiles": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "dist/."
+  ],
+  "sideEffects": false,
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.4"
+  }
+}
