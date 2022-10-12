@@ -1,7 +1,7 @@
 {
   "name": "comfortable",
   "version": "0.0.1",
-  "description": "A JavaScript utility library delivering comfort, performance, modularity & extras.",
+  "description": "Comfortable JS is a JavaScript library that provides utilities for common programming tasks, that make coding in JavaScript easier and cleaner.",
   "license": "MIT",
   "homepage": "https://github.com/Ruben-Arushanyan/comfortable",
   "repository": {
@@ -14,10 +14,16 @@
   },
   "keywords": [
     "javascript",
-    "comfort",
     "comfortable",
+    "comfort",
     "util",
-    "utility"
+    "utils",
+    "utility",
+    "utilities",
+    "extras",
+    "helpers",
+    "stdlib",
+    "boost"
   ],
   "author": {
     "name": "Ruben Arushanyan",
