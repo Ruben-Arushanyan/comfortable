@@ -1,0 +1,1 @@
+export {default as default} from './_/function/isFunction'
