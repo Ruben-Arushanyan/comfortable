@@ -1,5 +1,5 @@
-# [Comfortable JS](https://ruben-arushanyan.github.io/comfortable/)
-> You can find the full documentation on the [website](https://ruben-arushanyan.github.io/comfortable/)
+# [Comfortable JS](https://comfortable.js.org)
+> You can find the full documentation on the [website](https://comfortable.js.org)
 
 ## Description
 
@@ -23,15 +23,15 @@ isObject([1, 2, 3]) // true
 isObject(function () {}) // true
 ```
 
-## [Documentation](https://ruben-arushanyan.github.io/comfortable/)
+## [Documentation](https://comfortable.js.org)
 
-- ### [Introduction](https://ruben-arushanyan.github.io/comfortable/docs/introduction)
+- ### [Introduction](https://comfortable.js.org/docs/introduction)
 - ### Function
-    - [isFunction](https://ruben-arushanyan.github.io/comfortable/docs/Function/isFunction)
+    - [isFunction](https://comfortable.js.org/docs/Function/isFunction)
 - ### Object
-    - [isObject](https://ruben-arushanyan.github.io/comfortable/docs/Object/isObject)
+    - [isObject](https://comfortable.js.org/docs/Object/isObject)
 - ### String
-    - [isString](https://ruben-arushanyan.github.io/comfortable/docs/String/isString)
+    - [isString](https://comfortable.js.org/docs/String/isString)
 
 
 </br>

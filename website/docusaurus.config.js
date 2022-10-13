@@ -17,8 +17,8 @@ const additonalInfo = {
 const config = {
   title: 'Comfortable JS',
   tagline: 'Feel more comfortable in JavaScript',
-  url: 'https://ruben-arushanyan.github.io',
-  baseUrl: '/comfortable/',
+  url: 'https://comfortable.js.org',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'images/favicon.ico',
