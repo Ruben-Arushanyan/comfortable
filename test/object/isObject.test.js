@@ -1,38 +1,38 @@
-const example = (x) => true
+import isObject from '../../.packed/isObject'
 
-test('example', () => {
-    expect(example(true)).toBe(true)
-    expect(example(false)).toBe(true)
+test('isObject', () => {
+    expect(isObject(true)).toBe(false)
+    expect(isObject(false)).toBe(false)
 
-    expect(example(null)).toBe(true)
+    expect(isObject(null)).toBe(false)
 
-    expect(example(undefined)).toBe(true)
+    expect(isObject(undefined)).toBe(false)
 
-    expect(example(123)).toBe(true)
-    expect(example(NaN)).toBe(true)
-    expect(example(Infinity)).toBe(true)
-    expect(example(-Infinity)).toBe(true)
+    expect(isObject(123)).toBe(false)
+    expect(isObject(NaN)).toBe(false)
+    expect(isObject(Infinity)).toBe(false)
+    expect(isObject(-Infinity)).toBe(false)
 
-    expect(example(111n)).toBe(true)
+    expect(isObject(111n)).toBe(false)
 
-    expect(example('')).toBe(true)
-    expect(example(' ')).toBe(true)
-    expect(example('Hello')).toBe(true)
-    expect(example('Hello Hello')).toBe(true)
+    expect(isObject('')).toBe(false)
+    expect(isObject(' ')).toBe(false)
+    expect(isObject('Hello')).toBe(false)
+    expect(isObject('Hello Hello')).toBe(false)
 
-    expect(example(Symbol())).toBe(true)
+    expect(isObject(Symbol())).toBe(false)
 
-    expect(example({})).toBe(true)
-    expect(example([])).toBe(true)
-    expect(example(/ab+c/)).toBe(true)
+    expect(isObject({})).toBe(true)
+    expect(isObject([])).toBe(true)
+    expect(isObject(/ab+c/)).toBe(true)
 
-    expect(example(Object())).toBe(true)
-    expect(example(new Boolean())).toBe(true)
-    expect(example(new Number())).toBe(true)
-    expect(example(new String())).toBe(true)
+    expect(isObject(Object())).toBe(true)
+    expect(isObject(new Boolean())).toBe(true)
+    expect(isObject(new Number())).toBe(true)
+    expect(isObject(new String())).toBe(true)
 
-    expect(example({a: 1})).toBe(true)
-    expect(example(() => {})).toBe(true)
-    expect(example(function f(){})).toBe(true)
-    expect(example(class A {})).toBe(true)
+    expect(isObject({a: 1})).toBe(true)
+    expect(isObject(() => {})).toBe(true)
+    expect(isObject(function f(){})).toBe(true)
+    expect(isObject(class A {})).toBe(true)
 })
