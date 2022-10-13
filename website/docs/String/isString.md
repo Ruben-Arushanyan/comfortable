@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-description: 'JavaScript - Check if a variable is a string primitive type.'
+description: 'JavaScript - Check if a value is a string primitive type.'
 ---
 
-Check if a variable is a **string primitive type**.
+Check if a value is a **string primitive type**.
 
 ## Import
 
