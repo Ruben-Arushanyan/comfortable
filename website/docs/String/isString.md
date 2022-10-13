@@ -1,8 +1,9 @@
 ---
 sidebar_position: 1
+description: 'JavaScript - Check if a variable is a JavaScript string primitive type.'
 ---
 
-Check if a variable is a **primitive string** type.
+Check if a variable is a JavaScript **string primitive type**.
 
 ## Import
 
@@ -37,6 +38,6 @@ isString(new String("Hello"))
 - **value** `<any>`  
     Any JavaScript value.
 
-#### Returns
+#### Returns `<boolean>`
 
-`<boolean>` Returns **true** if the value is a primitive string, else **false**.
+Returns `true` if the value is a **string primitive type**, else `false`.
