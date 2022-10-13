@@ -15,7 +15,15 @@ title: Introduction
 npm install comfortable
 ```
 
-## Examples
+## Example
 
-...
+```js
+import isObject from 'comfortable/isObject'
+
+isObject(null) // false
+isObject('Hello') // false
+isObject({}) // true
+isObject([1, 2, 3]) // true
+isObject(function () {}) // true
+```
 

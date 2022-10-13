@@ -11,19 +11,23 @@
 npm install comfortable
 ```
 
-## Examples
+## Example
 
-...
+```js
+import isObject from 'comfortable/isObject'
+
+isObject(null) // false
+isObject('Hello') // false
+isObject({}) // true
+isObject([1, 2, 3]) // true
+isObject(function () {}) // true
+```
 
 ## [Documentation](https://ruben-arushanyan.github.io/comfortable/)
 
 - ### [Introduction](https://ruben-arushanyan.github.io/comfortable/docs/introduction)
-- ### Array
-    - [isArray](https://ruben-arushanyan.github.io/comfortable/docs/Array/isArray)
 - ### Function
     - [isFunction](https://ruben-arushanyan.github.io/comfortable/docs/Function/isFunction)
-- ### Number
-    - [isNumber](https://ruben-arushanyan.github.io/comfortable/docs/Number/isNumber)
 - ### Object
     - [isObject](https://ruben-arushanyan.github.io/comfortable/docs/Object/isObject)
 - ### String
