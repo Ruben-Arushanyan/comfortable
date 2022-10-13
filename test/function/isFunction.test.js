@@ -1,38 +1,38 @@
-const example = (x) => true
+import isFunction from '../../.packed/isFunction'
 
-test('example', () => {
-    expect(example(true)).toBe(true)
-    expect(example(false)).toBe(true)
+test('isFunction', () => {
+    expect(isFunction(true)).toBe(false)
+    expect(isFunction(false)).toBe(false)
 
-    expect(example(null)).toBe(true)
+    expect(isFunction(null)).toBe(false)
 
-    expect(example(undefined)).toBe(true)
+    expect(isFunction(undefined)).toBe(false)
 
-    expect(example(123)).toBe(true)
-    expect(example(NaN)).toBe(true)
-    expect(example(Infinity)).toBe(true)
-    expect(example(-Infinity)).toBe(true)
+    expect(isFunction(123)).toBe(false)
+    expect(isFunction(NaN)).toBe(false)
+    expect(isFunction(Infinity)).toBe(false)
+    expect(isFunction(-Infinity)).toBe(false)
 
-    expect(example(111n)).toBe(true)
+    expect(isFunction(111n)).toBe(false)
 
-    expect(example('')).toBe(true)
-    expect(example(' ')).toBe(true)
-    expect(example('Hello')).toBe(true)
-    expect(example('Hello Hello')).toBe(true)
+    expect(isFunction('')).toBe(false)
+    expect(isFunction(' ')).toBe(false)
+    expect(isFunction('Hello')).toBe(false)
+    expect(isFunction('Hello Hello')).toBe(false)
 
-    expect(example(Symbol())).toBe(true)
+    expect(isFunction(Symbol())).toBe(false)
 
-    expect(example({})).toBe(true)
-    expect(example([])).toBe(true)
-    expect(example(/ab+c/)).toBe(true)
+    expect(isFunction({})).toBe(false)
+    expect(isFunction([])).toBe(false)
+    expect(isFunction(/ab+c/)).toBe(false)
 
-    expect(example(Object())).toBe(true)
-    expect(example(new Boolean())).toBe(true)
-    expect(example(new Number())).toBe(true)
-    expect(example(new String())).toBe(true)
+    expect(isFunction(Object())).toBe(false)
+    expect(isFunction(new Boolean())).toBe(false)
+    expect(isFunction(new Number())).toBe(false)
+    expect(isFunction(new String())).toBe(false)
 
-    expect(example({a: 1})).toBe(true)
-    expect(example(() => {})).toBe(true)
-    expect(example(function f(){})).toBe(true)
-    expect(example(class A {})).toBe(true)
+    expect(isFunction({a: 1})).toBe(false)
+    expect(isFunction(() => {})).toBe(true)
+    expect(isFunction(function f(){})).toBe(true)
+    expect(isFunction(class A {})).toBe(true)
 })

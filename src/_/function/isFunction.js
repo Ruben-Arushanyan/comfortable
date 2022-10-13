@@ -1,1 +1,1 @@
-export default (x) => typeof x === 'function'
+export default x => typeof x === 'function'
