@@ -1,4 +1,5 @@
-# Comfortable JS
+# [Comfortable JS](https://ruben-arushanyan.github.io/comfortable/)
+> You can find the full documentation on the [website](https://ruben-arushanyan.github.io/comfortable/)
 
 ## Description
 
@@ -14,9 +15,22 @@ npm install comfortable
 
 ...
 
-## Documentation
+## [Documentation](https://ruben-arushanyan.github.io/comfortable/)
 
-...
+- ### [Introduction](https://ruben-arushanyan.github.io/comfortable/docs/introduction)
+- ### Array
+    - [isArray](https://ruben-arushanyan.github.io/comfortable/docs/Array/isArray)
+- ### Function
+    - [isFunction](https://ruben-arushanyan.github.io/comfortable/docs/Function/isFunction)
+- ### Number
+    - [isNumber](https://ruben-arushanyan.github.io/comfortable/docs/Number/isNumber)
+- ### Object
+    - [isObject](https://ruben-arushanyan.github.io/comfortable/docs/Object/isObject)
+- ### String
+    - [isString](https://ruben-arushanyan.github.io/comfortable/docs/String/isString)
+
+
+</br>
 
 ## [Contributing](https://github.com/ruben-arushanyan/comfortable/blob/master/CONTRIBUTING.md)
 
