@@ -9,6 +9,8 @@ title: Introduction
 
 **Comfortable JS** is a JavaScript library that provides **utilities** for common programming tasks, that make coding in JavaScript **easier** and **cleaner**.
 
+**ComfortableJS** uses **Object-oriented programming (OOP)** approach to build its libraries: Unlike other similar libraries that use the functional programming approach, for example, the popular *Lodash* library.
+
 ## Installation
 
 ```
