@@ -5,6 +5,8 @@
 
 **Comfortable JS** is a JavaScript library that provides **utilities** for common programming tasks, that make coding in JavaScript **easier** and **cleaner**.
 
+**ComfortableJS** uses **Object-oriented programming (OOP)** approach to build its libraries: Unlike other similar libraries that use the functional programming approach, for example, the popular *Lodash* library.
+
 ## Installation
 
 ```
@@ -14,24 +16,18 @@ npm install comfortable
 ## Example
 
 ```js
-import isObject from 'comfortable/isObject'
+import {$Value} from 'comfortable/$Value'
 
-isObject(null) // false
-isObject('Hello') // false
-isObject({}) // true
-isObject([1, 2, 3]) // true
-isObject(function () {}) // true
+$Value('Hello').isString() // true
 ```
 
 ## [Documentation](https://comfortable.js.org)
 
 - ### [Introduction](https://comfortable.js.org/docs/introduction)
-- ### Function
-    - [isFunction](https://comfortable.js.org/docs/Function/isFunction)
-- ### Object
-    - [isObject](https://comfortable.js.org/docs/Object/isObject)
-- ### String
-    - [isString](https://comfortable.js.org/docs/String/isString)
+- ### [$Value](https://comfortable.js.org/docs/$Value/)
+    - [constructor](https://comfortable.js.org/docs/$Value/constructor)
+    - [isString()](https://comfortable.js.org/docs/$Value/isString)
+
 
 
 </br>

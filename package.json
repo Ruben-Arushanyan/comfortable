@@ -23,7 +23,12 @@
     "extras",
     "helpers",
     "stdlib",
-    "boost"
+    "boost",
+    "oop",
+    "oop-in-javascript",
+    "object-oriented-programming",
+    "oop-principles",
+    "object-oriented"
   ],
   "author": {
     "name": "Ruben Arushanyan",
