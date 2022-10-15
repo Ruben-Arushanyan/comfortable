@@ -25,3 +25,9 @@ import {$Value} from 'comfortable/$Value'
 $Value('Hello').isString() // true
 ```
 
+## References
+
+- [$Value](./$Value/)
+    - [constructor](./$Value/constructor)
+    - [isString()](./$Value/isString)
+
