@@ -10,18 +10,18 @@ Check if a value is a **string primitive type**.
 ## Examples
 
 ```js
-import {$Value} from 'comfortable/$Value'
+import {$value} from 'comfortable/$value'
 
-$Value('Hello').isString()
+$value('Hello').isString()
 // true
 
-$Value('').isString()
+$value('').isString()
 // true
 
-$Value(123).isString()
+$value(123).isString()
 // false
 
-$Value(new String("Hello")).isString()
+$value(new String("Hello")).isString()
 // false
 ```
 

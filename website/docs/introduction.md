@@ -20,14 +20,14 @@ npm install comfortable
 ## Example
 
 ```js
-import {$Value} from 'comfortable/$Value'
+import {$value} from 'comfortable/$value'
 
-$Value('Hello').isString() // true
+$value('Hello').isString() // true
 ```
 
 ## References
 
-- [$Value](./$Value/)
-    - [constructor](./$Value/constructor)
-    - [isString()](./$Value/isString)
+- [$value](./$value/)
+    - [constructor](./$value/constructor)
+    - [isString()](./$value/isString)
 

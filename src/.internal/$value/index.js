@@ -1,5 +1,5 @@
 
-class $Value {
+class $value {
     #value
     constructor(value) {
         this.#value = value
@@ -14,5 +14,5 @@ class $Value {
     }
 }
 
-const Factory = (...args) => new $Value(...args)
-export {Factory as $Value}
+const Factory = (...args) => new $value(...args)
+export {Factory as $value}

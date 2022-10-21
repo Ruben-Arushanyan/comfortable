@@ -16,17 +16,17 @@ npm install comfortable
 ## Example
 
 ```js
-import {$Value} from 'comfortable/$Value'
+import {$value} from 'comfortable/$value'
 
-$Value('Hello').isString() // true
+$value('Hello').isString() // true
 ```
 
 ## [Documentation](https://comfortable.js.org)
 
 - ### [Introduction](https://comfortable.js.org/docs/introduction)
-- ### [$Value](https://comfortable.js.org/docs/$Value/)
-    - [constructor](https://comfortable.js.org/docs/$Value/constructor)
-    - [isString()](https://comfortable.js.org/docs/$Value/isString)
+- ### [$value](https://comfortable.js.org/docs/$value/)
+    - [constructor](https://comfortable.js.org/docs/$value/constructor)
+    - [isString()](https://comfortable.js.org/docs/$value/isString)
 
 
 

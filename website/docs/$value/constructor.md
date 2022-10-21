@@ -1,33 +1,33 @@
 ---
 sidebar_position: 2
-description: 'The $Value() constructor is used to create $Value objects.'
+description: 'The $value() constructor is used to create $value objects.'
 title: 'constructor'
 keywords: ['constructor', 'value', 'js-value', 'any-js-value', 'javascript', 'comfortable', 'comfort', 'util', 'utils', 'utility', 'utilities', 'extras', 'helpers', 'stdlib', 'boost', 'oop', 'oop-in-javascript', 'object-oriented-programming', 'oop-principles', 'object-oriented']
 ---
 
-The **$Value()** constructor is used to create [$Value](./index.md) objects.
+The **$value()** constructor is used to create [$value](./index.md) objects.
 
 ## Examples
 
 ```js
-import {$Value} from 'comfortable/$Value'
+import {$value} from 'comfortable/$value'
 
-$Value('Hello')
+$value('Hello')
 
-$Value(123)
+$value(123)
 
-$Value(true)
+$value(true)
 
-$Value(null)
+$value(null)
 
-$Value({a: 1})
+$value({a: 1})
 
-$Value(() => {})
+$value(() => {})
 ```
 
 ## Syntax
 
-### `$Value(value)`
+### `$value(value)`
 
 #### Arguments
 
