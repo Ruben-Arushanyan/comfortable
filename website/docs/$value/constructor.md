@@ -5,24 +5,30 @@ title: 'constructor'
 keywords: ['constructor', 'value', 'js-value', 'any-js-value', 'javascript', 'comfortable', 'comfort', 'util', 'utils', 'utility', 'utilities', 'extras', 'helpers', 'stdlib', 'boost', 'oop', 'oop-in-javascript', 'object-oriented-programming', 'oop-principles', 'object-oriented']
 ---
 
-The **$value()** constructor is used to create [$value](./index.md) objects.
+The **$value()** constructor is used to create [$value](./) objects.
 
 ## Examples
 
 ```js
 import {$value} from 'comfortable/$value'
 
-$value('Hello')
+const v1 = $value('Hello')
+console.log(v1.value) // 'Hello'
 
-$value(123)
+const v2 = $value(123)
+console.log(v2.value) // 123
 
-$value(true)
+const v3 = $value(true)
+console.log(v3.value) // true
 
-$value(null)
+const v4 = $value(null)
+console.log(v4.value) // null
 
-$value({a: 1})
+const v5 = $value({a: 1})
+console.log(v5.value) // {a: 1}
 
-$value(() => {})
+const v6 = $value(() => {})
+console.log(v6.value) // () => {}
 ```
 
 ## Syntax
