@@ -1,7 +1,9 @@
 
-class $value {
+class $Value {
     #value
+    #originalValue
     constructor(value) {
+        this.#originalValue = value
         this.#value = value
     }
 
@@ -10,9 +12,9 @@ class $value {
     }
 
     isString() {
-        return typeof this.value === 'string'
+        const v = this.value
+        return typeof v === 'string'
     }
 }
 
-const Factory = (...args) => new $value(...args)
-export {Factory as $value}
+export const $value = (...args) => new $Value(...args)
